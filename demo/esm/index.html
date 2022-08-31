@@ -1,0 +1,43 @@
+<!--
+ * @Author: huayang
+ * @Description: 
+ * @Date: 2022-08-30 16:48:07
+ * @LastEditTime: 2022-08-30 19:21:17
+ * @FilePath: \huayang_ui\demo\esm\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- 全量引入 -->
+    <script type="module">
+      import { createApp } from "vue/dist/vue.esm-bundler.js";
+      import huayangUI from "../../dist/huayang-ui.js";
+      import "../../dist/assets/entry.css";
+      createApp({
+        template: `
+        <jsxButton icon='search' size='small' /> 
+        <jsxButton icon='check' color='green' round class='w-14 h-14' /> 
+        <jsxButton icon='search' round>搜索 </jsxButton>  
+        <jsxButton icon='search' size='large' plain >搜索</jsxButton>  
+         <sfcButton /> <hButton />`,
+      })
+        .use(huayangUI)
+        .mount("#app");
+    </script>
+    <!-- 单独引入 -->
+    <!-- <script type="module">
+    import { createApp } from 'vue/dist/vue.esm-bundler.js';
+    import {hButton,jsxButton,sfcButton} from '../../dist/huayang-ui.js';
+    createApp({
+      template: `<jsxButton /> <sfcButton /> <hButton />`
+    }).component(hButton.name, hButton).component(jsxButton.name, jsxButton).component(sfcButton.name, sfcButton).mount('#app')
+  </script> -->
+  </body>
+</html>
