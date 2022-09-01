@@ -2,7 +2,9 @@ name: Publish huayang_oto_vite To Npm
 
 on:
   push:
-    branches: [publish-huayangui]
+    #branches: [publish-huayangui]
+    tags:
+      - 'v*'
 
 jobs:
   publish:
