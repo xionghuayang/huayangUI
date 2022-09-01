@@ -1,8 +1,8 @@
 {
   "name": "huayang_oto_vite",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "huayangUI,PC_UI",
-  "main": "index.js",
+  "main": "dist/huayang-ui.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,8 +14,8 @@
     "lint": "eslint --fix --ext .ts,.vue,.tsx src",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\" \"src/**/*.tsx\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["huayang_oto","huayang_oto_vite","huayang_ui"],
+  "author": "xionghuayang",
   "license": "ISC",
   "devDependencies": {
     "@iconify-json/ep": "^1.1.7",
@@ -39,6 +39,7 @@
     "vitepress-theme-demoblock": "1.4.2"
   },
   "dependencies": {
+    "huayang_oto": "^1.0.0",
     "vue": "^3.2.38"
   }
 }
