@@ -26,6 +26,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.HUAYANG_OTO_VITE }} # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
-        with:
-          default_branch: "publish"
-          dir: "packages/huayang_oto_vite"
+        
