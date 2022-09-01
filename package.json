@@ -1,7 +1,7 @@
 {
-  "name": "huayang_ui",
-  "version": "1.0.0",
-  "description": "",
+  "name": "huayang_oto_vite",
+  "version": "0.0.1",
+  "description": "huayangUI,PC_UI",
   "main": "index.js",
   "type": "module",
   "scripts": {
