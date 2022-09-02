@@ -1,6 +1,6 @@
 {
   "name": "huayang_oto_vite",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "huayangUI,PC_UI",
   "main": "dist/huayang-ui.js",
   "homepage": "https://www.xionghuayang.work/ui-docs/",

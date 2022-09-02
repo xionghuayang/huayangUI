@@ -2,7 +2,7 @@
  * @Author: huayang
  * @Description:
  * @Date: 2022-07-25 19:57:44
- * @LastEditTime: 2022-08-31 17:10:39
+ * @LastEditTime: 2022-09-02 12:17:27
  * @FilePath: \huayang_ui\.eslintrc.cjs
  */
 module.exports = {

@@ -2,7 +2,7 @@
  * @Author: huayang
  * @Description: 
  * @Date: 2022-08-31 15:21:43
- * @LastEditTime: 2022-09-02 09:22:27
+ * @LastEditTime: 2022-09-02 11:50:12
  * @FilePath: \huayang_ui\docs\components\button\index.md
 -->
 # Button 按钮
@@ -12,7 +12,7 @@
 
 基础的函数用法
 
-:::demo 使用`size`、`color`、`pain`、`round`属性来定义 Button 的样式。
+:::demo 使用`size`、`color`、`plain`、`round`属性来定义 Button 的样式。
 
 ```vue
 <template>
