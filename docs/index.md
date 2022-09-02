@@ -8,10 +8,10 @@
 <hr style='height: 1px' />
 <div>
   <p align='center'>
-    <a href="https://www.npmjs.com/package/huayang_oto_vite">
-      <img src="https://badgen.net/npm/v/huayang_oto_vite" alt="NPM version" target="_blank" style="max-width: 100%;">
+    <a href="https://www.npmjs.com/package/huayang_oto_vite" target="_blank" style="margin-right: 10px;">
+      <img src="https://badgen.net/npm/v/huayang_oto_vite" alt="NPM version" style="max-width: 100%;">
     </a>
-    <a href="https://github.com/xionghuayang/huayangUI/actions/workflows/main.yml" target="_blank">
+    <a href="https://github.com/xionghuayang/huayangUI/actions/workflows/main.yml" target="_blank" style="margin-right: 10px;">
       <img alt='CI' src="https://github.com/xionghuayang/huayangUI/actions/workflows/main.yml/badge.svg?branch=master" />
     </a>
     <img src="https://img.shields.io/github/license/xionghuayang/huayangUI" />
