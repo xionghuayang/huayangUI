@@ -2,7 +2,7 @@
  * @Author: huayang
  * @Description: 
  * @Date: 2022-08-30 16:25:38
- * @LastEditTime: 2022-09-01 17:42:51
+ * @LastEditTime: 2022-09-02 11:36:30
  * @FilePath: \huayang_ui\vite.config.ts
  */
 import { defineConfig, UserConfig } from 'vite';

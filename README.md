@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="">
+  <a href="https://www.xionghuayang.work/ui-docs/" target="_blank">
     <img src="https://www.xionghuayang.work/img/huayang.png" style="width: 200px;" />
   </a>
 </p>
