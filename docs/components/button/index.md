@@ -2,7 +2,7 @@
  * @Author: huayang
  * @Description: 
  * @Date: 2022-08-31 15:21:43
- * @LastEditTime: 2022-08-31 16:14:52
+ * @LastEditTime: 2022-09-02 09:22:27
  * @FilePath: \huayang_ui\docs\components\button\index.md
 -->
 # Button 按钮
@@ -17,38 +17,38 @@
 ```vue
 <template>
  <div style="margin-bottom:20px;">
-  <jsxButton color="blue">主要按钮</jsxButton>
-  <jsxButton color="green">绿色按钮</jsxButton>
-  <jsxButton color="gray">灰色按钮</jsxButton>
-  <jsxButton color="yellow">黄色按钮</jsxButton>
-  <jsxButton color="red">红色按钮</jsxButton>
+  <hButton color="blue">主要按钮</hButton>
+  <hButton color="green">绿色按钮</hButton>
+  <hButton color="gray">灰色按钮</hButton>
+  <hButton color="yellow">黄色按钮</hButton>
+  <hButton color="red">红色按钮</hButton>
  </div>
  <div style="margin-bottom:20px;"
  >
-  <jsxButton color="blue" plain>朴素按钮</jsxButton>
-  <jsxButton color="green" plain>绿色按钮</jsxButton>
-  <jsxButton color="gray" plain>灰色按钮</jsxButton>
-  <jsxButton color="yellow" plain>黄色按钮</jsxButton>
-  <jsxButton color="red" plain>红色按钮</jsxButton>
+  <hButton color="blue" plain>朴素按钮</hButton>
+  <hButton color="green" plain>绿色按钮</hButton>
+  <hButton color="gray" plain>灰色按钮</hButton>
+  <hButton color="yellow" plain>黄色按钮</hButton>
+  <hButton color="red" plain>红色按钮</hButton>
  </div>
  <div style="margin-bottom:20px;">
-  <jsxButton size="small" plain>小按钮</jsxButton>
-  <jsxButton size="medium" plain>中按钮</jsxButton>
-  <jsxButton size="large" plain>大按钮</jsxButton>
+  <hButton size="small" plain>小按钮</hButton>
+  <hButton size="medium" plain>中按钮</hButton>
+  <hButton size="large" plain>大按钮</hButton>
  </div>
  <div style="margin-bottom:20px;">
-  <jsxButton color="blue" round plain icon="search">搜索按钮</jsxButton>
-  <jsxButton color="green" round plain icon="edit">编辑按钮</jsxButton>
-  <jsxButton color="gray" round plain icon="check">成功按钮</jsxButton>
-  <jsxButton color="yellow" round plain icon="message">提示按钮</jsxButton>
-  <jsxButton color="red" round plain icon="delete">删除按钮</jsxButton>
+  <hButton color="blue" round plain icon="search">搜索按钮</hButton>
+  <hButton color="green" round plain icon="edit">编辑按钮</hButton>
+  <hButton color="gray" round plain icon="check">成功按钮</hButton>
+  <hButton color="yellow" round plain icon="message">提示按钮</hButton>
+  <hButton color="red" round plain icon="delete">删除按钮</hButton>
  </div>
  <div style="margin-bottom:20px;">
-  <jsxButton color="blue" round plain icon="search"></jsxButton>
-  <jsxButton color="green" round plain icon="edit"></jsxButton>
-  <jsxButton color="gray" round plain icon="check"></jsxButton>
-  <jsxButton color="yellow" round plain icon="message"></jsxButton>
-  <jsxButton color="red" round plain icon="delete"></jsxButton>
+  <hButton color="blue" round plain icon="search"></hButton>
+  <hButton color="green" round plain icon="edit"></hButton>
+  <hButton color="gray" round plain icon="check"></hButton>
+  <hButton color="yellow" round plain icon="message"></hButton>
+  <hButton color="red" round plain icon="delete"></hButton>
  </div>
 </template>
 ```
@@ -63,10 +63,10 @@
 ```vue
 <template>
  <div class="flex flex-row">
-  <jsxButton icon="edit" plain></jsxButton>
-  <jsxButton icon="delete" plain></jsxButton>
-  <jsxButton icon="share" plain></jsxButton>
-  <jsxButton round plain icon="search">搜索</jsxButton>
+  <hButton icon="edit" plain></hButton>
+  <hButton icon="delete" plain></hButton>
+  <hButton icon="share" plain></hButton>
+  <hButton round plain icon="search">搜索</hButton>
  </div>
 </template>
 ```

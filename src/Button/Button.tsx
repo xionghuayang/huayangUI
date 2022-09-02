@@ -2,10 +2,9 @@
  * @Author: huayang
  * @Description:
  * @Date: 2022-08-30 16:33:38
- * @LastEditTime: 2022-08-31 17:42:40
- * @FilePath: \huayang_ui\src\button\jsxButton.tsx
+ * @LastEditTime: 2022-09-01 16:58:53
+ * @FilePath: \huayang_ui\src\Button\Button.tsx
  */
-import "uno.css";
 import { defineComponent, PropType } from "vue";
 export type IColor =
 	| "black"
@@ -42,7 +41,7 @@ export const props = {
 };
 
 export default defineComponent({
-	name: "jsxButton",
+	name: "hButton",
 	props,
 	setup(props, { slots }) {
 		const size = {

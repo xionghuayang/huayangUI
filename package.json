@@ -3,11 +3,13 @@
   "version": "0.0.4",
   "description": "huayangUI,PC_UI",
   "main": "dist/huayang-ui.js",
-  "type": "module",
+ 
   "scripts": {
     "dev": "vite",
     "demo": "vite ./demo/esm",
-    "build": "vite build",
+    "build": "pnpm build:components",
+    "build:all": "vite build",
+    "build:components": "esno ./scripts/build.ts",
     "docs:dev": "vitepress dev docs --port 3401",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
@@ -15,7 +17,11 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\" \"src/**/*.tsx\"",
     "preinstall": "npx only-allow pnpm"
   },
-  "keywords": ["huayang_oto","huayang_oto_vite","huayang_ui"],
+  "keywords": [
+    "huayang_oto",
+    "huayang_oto_vite",
+    "huayang_ui"
+  ],
   "author": "xionghuayang",
   "license": "ISC",
   "devDependencies": {
@@ -30,6 +36,8 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.4.0",
+    "esno": "^0.16.3",
+    "fs-extra": "^10.1.0",
     "prettier": "^2.7.1",
     "terser": "^5.15.0",
     "typescript": "^4.8.2",

@@ -2,7 +2,7 @@
  * @Author: huayang
  * @Description: 
  * @Date: 2022-08-30 16:48:07
- * @LastEditTime: 2022-08-30 19:21:17
+ * @LastEditTime: 2022-09-01 18:26:59
  * @FilePath: \huayang_ui\demo\esm\index.html
 -->
 <!DOCTYPE html>
@@ -18,15 +18,25 @@
     <!-- 全量引入 -->
     <script type="module">
       import { createApp } from "vue/dist/vue.esm-bundler.js";
-      import huayangUI from "../../dist/huayang-ui.js";
-      import "../../dist/assets/entry.css";
+      import huayangUI from '../../dist/huayang-ui.mjs'
+      import '../../dist/assets/entry.css'
+      console.log('huayangUI',huayangUI)
+      // import hButton from "../../dist/Button/index.mjs";
+      // import hCard from "../../dist/Card/index.mjs";
+      // import "../../dist/Button/assets/index.css";
+      // import "../../dist/Card/assets/index.css";
+      // <jsxButton icon='search' size='small' /> 
+        // <jsxButton icon='check' color='green' round class='w-14 h-14' /> 
+        // <jsxButton icon='search' round>搜索 </jsxButton>  
+        // <jsxButton icon='search' size='large' plain >搜索</jsxButton>  
+        //  <sfcButton />
       createApp({
         template: `
-        <jsxButton icon='search' size='small' /> 
-        <jsxButton icon='check' color='green' round class='w-14 h-14' /> 
-        <jsxButton icon='search' round>搜索 </jsxButton>  
-        <jsxButton icon='search' size='large' plain >搜索</jsxButton>  
-         <sfcButton /> <hButton />`,
+         <hButton icon='search' />
+         <hButton icon='search' round>搜索 </hButton>  
+         <hCard class='m-1' />
+         <hCard>fsfddsf</hCard>
+         `,
       })
         .use(huayangUI)
         .mount("#app");

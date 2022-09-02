@@ -2,10 +2,10 @@
  * @Author: huayang
  * @Description: 
  * @Date: 2022-08-30 16:25:38
- * @LastEditTime: 2022-08-31 17:31:30
+ * @LastEditTime: 2022-09-01 17:42:51
  * @FilePath: \huayang_ui\vite.config.ts
  */
-import {defineConfig} from 'vite';
+import { defineConfig, UserConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import viteEslint from 'vite-plugin-eslint';
 import vueJsx from '@vitejs/plugin-vue-jsx'
@@ -19,12 +19,14 @@ const rollupOptions = {
     assetFileNames: `assets/[name].css`,
   }
 }
-export default defineConfig({
+
+export const config = {
   plugins: [vue(), vueJsx(), Unocss(),viteEslint()],
   resolve: {
     alias: {
       'vue': 'vue/dist/vue.esm-bundler.js'
-    }
+    },
+    extensions: [".mjs", ".js", ".ts", ".vue", ".jsx", ".tsx", ".json"]
   },
   build: {
     rollupOptions,
@@ -35,7 +37,9 @@ export default defineConfig({
       entry: './src/entry.ts',
       name: 'huayangUI',
       fileName: 'huayang-ui',
-      formats: ['es','umd', 'iife', 'cjs']
-    }
+      formats: ['es','umd', 'iife'] // , 'cjs'
+    },
+    outDir: './dist'
   }
-})
+}
+export default defineConfig(config as UserConfig)
