@@ -2,7 +2,7 @@
  * @Author: huayang
  * @Description:
  * @Date: 2022-08-30 16:14:41
- * @LastEditTime: 2022-09-01 16:57:35
+ * @LastEditTime: 2022-09-02 09:54:23
  * @FilePath: \huayang_ui\src\button\index.ts
  */
 import hButton from "./Button";

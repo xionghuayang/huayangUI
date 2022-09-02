@@ -2,7 +2,7 @@
  * @Author: huayang
  * @Description:
  * @Date: 2022-08-31 15:11:50
- * @LastEditTime: 2022-08-31 16:17:24
+ * @LastEditTime: 2022-09-02 11:18:59
  * @FilePath: \huayang_ui\docs\.vitepress\config.ts
  */
 import { demoBlockPlugin } from "vitepress-theme-demoblock";
@@ -21,6 +21,7 @@ const sidebar = {
   ],
 };
 const config = {
+  base: process.argv[4] ? '/ui-docs' : '/',
   title: "🔨  Huayang-UI",
   description: "组件库搭建的教学模型",
   themeConfig: {

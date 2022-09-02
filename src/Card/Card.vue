@@ -2,7 +2,7 @@
  * @Author: huayang
  * @Description: 
  * @Date: 2022-09-01 17:43:29
- * @LastEditTime: 2022-09-01 18:00:23
+ * @LastEditTime: 2022-09-02 09:52:11
  * @FilePath: \huayang_ui\src\Card\Card.vue
 -->
 <template>
