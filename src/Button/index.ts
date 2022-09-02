@@ -1,8 +1,8 @@
 /*
  * @Author: huayang
  * @Description:
- * @Date: 2022-08-30 16:14:41
- * @LastEditTime: 2022-09-02 12:23:25
+ * @Date: 2022-09-02 12:42:33
+ * @LastEditTime: 2022-09-02 12:43:45
  * @FilePath: \huayang_ui\src\button\index.ts
  */
 import hButton from "./Button";
